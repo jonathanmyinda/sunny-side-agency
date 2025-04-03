@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+.herocontainer{
+    background: url(media/dekstop/image-header.jpg) no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.navlinks{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    gap: 1rem;
+}
+.navlinks a{
+    color: white;
+    font-size: 1.2rem;
+}
+.navlinks .contact-link{
+    color: black;
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 999px;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 5rem;
+}
+.hero-text{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 4rem;
+}
+.prestation{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.prestation div{
+    display: flex;
+    width: 50%;
+    height: 80vh;
+}
+
+.prestationtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.prestationtext h2{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    display: flex;
+    padding-bottom: 10%;
+    font-family: serif;
+    text-align: left;
+}
+
+.prestationtext p{
+    font-size: 1.2rem;
+    color: grey;
+    padding-bottom: 10px;
+}
+
+.prestationtext a{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 10%;
+    font-size: 1.2rem;
+    text-align: left;
+    font-family: serif;
+}
+
+.link1{
+    display: inline;
+    background: linear-gradient(to right, yellow, yellow);
+    background-size: 100% 7px;
+    background-repeat: no-repeat;
+    background-position: 0 99%;
+    border-radius: 10px;
+}
+.link2{
+    display: inline;
+    background: linear-gradient(to right, coral, coral);
+    background-size: 100% 7px;
+    background-repeat: no-repeat;
+    background-position: 0 99%;
+    border-radius: 10px;
+}
+
+.services{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row; 
+}
+.services div{
+    display: flex;
+    width: 50%;
+    height: 80vh;
+}
+
+.services-text1{
+    background-image: url(media/dekstop/image-graphic-design.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.services-text2{
+    background-image: url(media/dekstop/image-photography.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.services-hp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: gray;
+    padding: 20%;
+}
+
+
+
+.testimonials{
+    display: flex;
+    color: gray;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.projects div{
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    padding: 2rem;
+    width: 33%;
+}
+
+.projects img{
+    border-radius: 50%;
+    align-items: center;
+}
+
+.projects p{
+    font-size: 1.2rem;
+    color: gray;
+    padding: 1rem;
+}
+
+.forimages {
+    display: flex; 
+    flex-wrap: nowrap; 
+    width: 100%;
+}
+
+.image-container {
+    flex: 0 0 25%;
+    max-width: 25%;
+    box-sizing: border-box; 
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    background-color: rgb(158, 208, 190);
+}
+
+.footer-logo img{
+    padding-bottom: 2rem;
+    opacity: 0.5;
+}
+
+.footer-links ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+    gap: 2rem;
+}
+
+.footer-links ul li a{
+    color: rgb(51, 114, 93);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 5rem;
+    justify-content: center;
+    
+}
+
+.social-media a{
+    margin: 0 1rem;
+}   
